@@ -1,0 +1,20 @@
+{
+  "name": "cafeina",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "author": "destinyfrog",
+  "license": "MIT",
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
