@@ -41,11 +41,8 @@ router.get("/search/:term", async (req, res) => {
 		const term = req.params.term
 		const repo = new ElementRepository()
 
-		if (term) {
-			repo.search_for(term as string)
-		}
-
 		const data = await repo
+			.search_for(term as string)
 			.get_all()
 			.read_it()
 
